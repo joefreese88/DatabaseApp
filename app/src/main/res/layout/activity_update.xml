@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.androidbootcamp.databaseapp.UpdateActivity"
+    android:background="#cc0000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/enter_the_id_of_the_customer_you_want_to_update_fill_in_all_fields_with_current_and_new_information_make_sure_it_is_the_correct_id"
+        android:id="@+id/textView_update_instruction"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edit_enterID_txt"
+        android:hint="@string/id_inUpdate" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edit_UpdateFirst_txt"
+        android:hint="@string/enter_firstInUpdate" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edit_UpdateLast_txt"
+        android:hint="@string/enter_lastInUpdate" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_UpdateMake_txt"
+        android:hint="@string/enter_carMakeInUpdate" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/edit_UpdateCost_txt"
+        android:hint="@string/enter_costInUpdate" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update_inUpdate"
+        android:id="@+id/button_updateInUpdate"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/click_here_to_view_inUpdate"
+        android:id="@+id/textView_viewInUpdate"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_inUpdate"
+        android:id="@+id/button_viewInUpdate"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lt_return_fromUpdate"
+        android:id="@+id/button_returnFromUpdate"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000" />
+</LinearLayout>
